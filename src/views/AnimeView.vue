@@ -1,22 +1,15 @@
 <template>
-    <div class="main">
-        <div class="main__text">Anime Page</div>
-    </div>
+    <base-layout>
+        <app-anime/>
+    </base-layout>
 </template>
 
 <script setup lang="ts">
+import BaseLayout from '@/layouts/BaseLayout.vue';
+import AppAnime from '@/components/anime-page/AppAnime.vue';
 
 </script>
 
 <style scoped lang="scss">
-.main{
-    height: 100vh;
-    &__text{
-        height: 100%;
-        font-size: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
 </style>

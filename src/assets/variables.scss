@@ -1,0 +1,26 @@
+$roboto-font: "Roboto", sans-serif;
+$inter-font: "Inter", sans-serif;
+
+$customGrey: rgba(53, 53, 53, 0.9);
+$customPurple: rgba(162, 166, 255, 1);
+$customLightPurple: rgba(195, 198, 255, 1);
+$customBlue: rgba(71, 107, 181, 0.6);
+
+$hotBlockGrey: rgba(53, 53, 53, 0.7);
+$mainBlack: rgba(22, 22, 22, 0.85);
+$filterCheckGrey: rgba(77, 77, 77, 1);
+$filterBorderBlue: rgba(23, 36, 64, 1);
+
+@mixin limiter {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+@mixin limiterMain {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
